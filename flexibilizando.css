@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    background-color: #F295E4;
+}
+
+.flex-container {
+    display: flex;
+    gap:5px;
+    width:100%;
+    max-width:100%;
+
+}
+.box-container__one{
+    max-width:100%;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    width:215px;
+    row-gap: 5px;
+}
+.box-container__one__item:first-child{
+    height:25px;
+}
+.box-container__one__item{
+    max-width:215px;
+    width:100%;
+    height:50px;
+    background:red;
+}
+.box-container__one__item__two{
+    max-width:50px;
+    height:215px;
+    background:red;
+    width:100%;
+}
+.box-container__two__item{
+    max-width:50px;
+    width:100%;
+    height:80px;
+    background:red;
+
+}
+.box-container__two__item__one{
+    max-width:50px;
+    width:100%;
+    height:50px;
+    background:red;
+}
+
+.flex-direction-row{
+    width:inherit;
+    gap: 5px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+}
+
+.flex-direction-column{
+    display:flex;
+    flex-direction:column;
+}
+
+.box-container__three__item{
+    max-width:100px;
+    width:100%;
+    height:80px;
+    background:red;
+
+}
+
+.box-container__three{
+    max-width:100px;
+    width:100%;
+    display:flex;
+    gap:5px;
+    flex-wrap:wrap;
+}
+
+.box-container__three__item__large{
+    max-width:100px;
+    width:100%;
+    height:215px;
+    background:red;
+}
+.box-container__three__item__short:first-child{
+    height:25px;
+}
+.box-container__three__item__short{
+max-width:215px;
+    width:100%;
+    height:50px;
+    background:red;
+}
+.box-container__three__item__short:last-child{
+    height:px;
+}
+.box-container__three__item:last-child{
+    height:105px;
+}
+.box-container__three__item__large:first-child{
+height:190px;
+}
+.box-container__four{
+    max-width:100px;
+    
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    gap:5px;
+}
+
+gradient-color {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(246, 146, 255, 0.505) 17%, rgba(223, 122, 189, 0.555) 70%);
+}
